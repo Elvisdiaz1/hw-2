@@ -69,7 +69,11 @@ aside h1 {
 }
 
 #heading p {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+#heading #paragraph1 {
+  margin: 40px 0px;
 }
 
 #section-container {
@@ -92,8 +96,10 @@ aside h1 {
 }
 
 #contact ul {
+  font-size: 30px;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5em;
 }
 
 /* Add media queries for mobile */
