@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/* Button Area and Button Settings */
+#button-area {
+  background-color: #353839;
+  padding-bottom: 2em;
+  display: flex;
+  padding-left: 43em;
+  padding-top: 5em;
+}
+
+.button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #353839;
+  color: white;
+  border-color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #480607;
+}
+
+/* 'All Cars' Title Settings */
+#title {
+  font-size: 40px;
+  padding-left: 45%;
+}
+
+/* Picture Settings */
+img {
+  width: 600px;
+  height: 500px;
+  margin-left: 20px;
+  margin-top: 10px;
+}

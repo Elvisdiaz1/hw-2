@@ -28,12 +28,29 @@ nav li {
   margin: 0px 10px;
 }
 
+#subtitle-div {
+  display: flex;
+  padding: 20px 0px;
+  background: url(https://t4.ftcdn.net/jpg/04/44/56/61/360_F_444566120_zSCv01llCnsoFACUuInCGyReIezOs8qK.jpg);
+  /* add a fill whole thing to background url */
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+#subtitle {
+  margin-right: 15px;
+  font-size: 30px;
+  background-color: white;
+  padding: 20px;
+}
+
 aside {
   display: flex;
   flex-direction: column;
   font-size: 3rem;
-  max-width: 25%;
-  align-items: flex-end;
+  max-width: 40%;
+  /* align-items: flex-end; */
+  padding-left: 2em;
 }
 
 aside div {
@@ -43,16 +60,7 @@ aside div {
 }
 
 aside h1 {
-  padding: 40% 0px;
+  padding: 40% 1em;
 }
 
-#heading {
-}
-
-main {
-  display: flex;
-}
-
-main section {
-  border: 3px solid black;
-}
+/* Add media queries for mobile */
