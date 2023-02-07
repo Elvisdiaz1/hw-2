@@ -70,7 +70,18 @@ aside h1 {
 }
 
 #heading p {
+  position: relative;
+  left: 15%;
   font-size: 20px;
+  max-width: 70%;
+}
+
+#heading h2,
+#card-container h2 {
+  margin-top: 1%;
+  position: relative;
+  left: 42%;
+  font-size: 3em;
 }
 
 #heading #paragraph1 {
@@ -81,6 +92,14 @@ aside h1 {
   margin-bottom: 10em;
 }
 
+#heading img {
+  width: 20em;
+  height: 25em;
+  position: relative;
+  left: 40%;
+  margin-top: 2em;
+}
+
 /* #section-container {
   display: flex;
   flex-direction: column;
@@ -89,17 +108,20 @@ aside h1 {
 
 #card-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 15em;
-  /* flex: 2; */
 }
 
 .card {
-  max-width: 50%;
-  max-height: 60px;
-  /* flex: 1; */
+  color: black;
+  margin: 10px;
   border: 3px solid black;
+  flex-basis: 915px;
+  padding: 4em;
+  max-width: 40%;
 }
 
 #project1,
@@ -112,12 +134,21 @@ aside h1 {
   position: absolute;
   background-color: white;
   padding: 20px;
+  left: 1%;
+  bottom: 15%;
+  font-size: 150%;
 }
 
 #project1 {
+  /* width: 60em; */
   background: url(./images/calculator\ .png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  flex-grow: 2;
+  flex-basis: 100%;
+  padding: 80px;
+  max-width: 70%;
+  /* height: 15em; */
 }
 
 #project2 {
@@ -127,7 +158,15 @@ aside h1 {
 #project3 {
   background: url(./images/./tictactoe.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+}
+
+#card-container h2 {
+  margin-top: 1%;
+  position: absolute;
+  left: 42%;
+  font-size: 3em;
+  top: 170%;
 }
 
 #contact ul {
@@ -135,6 +174,14 @@ aside h1 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5em;
+}
+
+#contact h2 {
+  margin-top: 1%;
+  position: absolute;
+  left: 42%;
+  font-size: 3em;
+  bottom: -170%;
 }
 
 /* Add media queries for mobile */
