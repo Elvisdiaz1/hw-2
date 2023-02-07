@@ -32,7 +32,7 @@ nav li {
   display: flex;
   padding: 20px 0px;
   background: url(https://t4.ftcdn.net/jpg/04/44/56/61/360_F_444566120_zSCv01llCnsoFACUuInCGyReIezOs8qK.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   justify-content: flex-end;
   padding-right: 50px;
@@ -94,6 +94,9 @@ aside h1 {
   max-width: 50%;
   flex: 1;
   border: 3px solid black;
+  background: url(./images/world-map.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #contact ul {
