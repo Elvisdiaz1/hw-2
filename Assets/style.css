@@ -63,4 +63,37 @@ aside h1 {
   padding: 40% 1em;
 }
 
+#container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#heading p {
+  font-size: 25px;
+}
+
+#section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex: 2; */
+}
+
+.card {
+  max-width: 50%;
+  flex: 1;
+  border: 3px solid black;
+}
+
+#contact ul {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Add media queries for mobile */
