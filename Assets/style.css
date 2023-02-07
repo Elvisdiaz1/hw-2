@@ -27,3 +27,32 @@ nav ul {
 nav li {
   margin: 0px 10px;
 }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  max-width: 25%;
+  align-items: flex-end;
+}
+
+aside div {
+  border-style: solid;
+  border-width: 0px 5px 0px 0px;
+  /* add margin on top and/or bottom corresponding to work on right */
+}
+
+aside h1 {
+  padding: 40% 0px;
+}
+
+#heading {
+}
+
+main {
+  display: flex;
+}
+
+main section {
+  border: 3px solid black;
+}
