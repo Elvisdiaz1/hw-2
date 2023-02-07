@@ -77,26 +77,57 @@ aside h1 {
   margin: 40px 0px;
 }
 
-#section-container {
+#heading #paragraph2 {
+  margin-bottom: 10em;
+}
+
+/* #section-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 
 #card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 15em;
   /* flex: 2; */
 }
 
 .card {
   max-width: 50%;
-  flex: 1;
+  max-height: 60px;
+  /* flex: 1; */
   border: 3px solid black;
-  background: url(./images/world-map.gif);
+}
+
+#project1,
+#project2,
+#project3 {
+  position: relative;
+}
+
+.project-text {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+}
+
+#project1 {
+  background: url(./images/calculator\ .png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+#project2 {
+  background: url(./images/world-map.gif);
+}
+
+#project3 {
+  background: url(./images/./tictactoe.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #contact ul {
