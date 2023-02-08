@@ -181,12 +181,6 @@ nav li a,
   background-position-y: 15%;
 }
 
-/* #card-container h2 {
-  margin-top: -20%;
-  padding-top: 2%;
-  font-size: 3em;
-} */
-
 #contact ul {
   font-size: 30px;
   display: flex;
@@ -198,7 +192,6 @@ nav li a,
   margin-top: -8%;
   font-size: 3em;
   color: red;
-  /* padding-left: 42%; */
   padding-bottom: 3%;
   left: 40%;
 }
@@ -212,28 +205,19 @@ nav li a,
   color: red;
 }
 
-/* Add media queries for mobile && tablet*/
+/* Media Query for Mobile*/
 @media screen and (max-width: 430px) {
   nav h1 {
-    font-size: 3rem;
     padding: 10px 100%;
-    background-color: #252525;
     margin-left: -10%;
   }
 
   nav {
-    background-color: red;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    align-items: center;
     flex-direction: column;
     padding-bottom: 15em;
   }
 
   nav ul {
-    display: flex;
     flex-direction: column;
   }
   nav ul li {
@@ -242,103 +226,56 @@ nav li a,
 
   #heading h2 {
     padding-top: 3%;
-    position: relative;
     left: 20%;
-    font-size: 3em;
   }
 
   #heading img {
-    width: 20em;
-    height: 25em;
-    position: relative;
     left: 12%;
-    margin-top: 2em;
   }
 
   #heading p {
-    position: relative;
     left: 13%;
     font-size: 16px;
     max-width: 80%;
   }
 
   #project-container h2 {
-    position: relative;
     left: 17%;
-    font-size: 3em;
-    padding-bottom: 1%;
     margin-top: -2%;
   }
 
   #card-container {
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
     left: -6%;
     flex-direction: column;
   }
 
   .card {
-    color: black;
-    margin: 10px;
-    margin-left: 10px;
-    margin-left: 10px;
-    border: 3px solid black;
     flex-basis: 300px;
-    padding: 4em 4em 4em 6em;
-    width: 200px;
     margin-left: 30px;
-    max-width: 0px;
     padding: 10em 8em;
   }
 
   #project1 {
-    background: url(https://storage.googleapis.com/replit/images/1670002823446_774b0b52bdb04e22247044ca3a843680.png);
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    background-position-y: 0%;
-    background-repeat: repeat;
-    background-size: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-grow: 2;
-    flex-basis: 500px;
     padding: 80px;
     max-width: 100%;
-    max-height: 6em;
-    background-position-y: 70%;
-    max-height: 400px;
     width: 90%;
     margin-left: 45px;
   }
 
   .project-text {
-    position: absolute;
-    background-color: white;
-    padding: 20px;
     left: 6%;
     bottom: 35%;
     font-size: 100%;
   }
 
   #contact h2 {
-    position: relative;
-    margin-top: -8%;
     font-size: 2em;
-    color: red;
     padding-left: 42%;
-    padding-bottom: 3%;
     left: -13%;
   }
 
   #contact ul {
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
     flex-direction: column;
     align-items: center;
   }
@@ -346,27 +283,20 @@ nav li a,
     padding-top: 5%;
   }
 }
+
+/* Media Query for Tablet */
 @media screen and (min-width: 430px) and (max-width: 850px) {
   nav h1 {
-    font-size: 3rem;
     padding: 10px 100%;
-    background-color: #252525;
     margin-left: -6%;
   }
 
   nav {
-    background-color: red;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    align-items: center;
     flex-direction: column;
     padding-bottom: 15em;
   }
 
   nav ul {
-    display: flex;
     flex-direction: column;
     margin-left: -15px;
   }
@@ -376,96 +306,57 @@ nav li a,
 
   #heading h2 {
     padding-top: 3%;
-    position: relative;
     left: 35%;
-    font-size: 3em;
   }
 
   #heading img {
-    width: 20em;
-    height: 25em;
-    position: relative;
     left: 28%;
-    margin-top: 2em;
   }
 
   #heading p {
-    position: relative;
     left: 13%;
     font-size: 16px;
     max-width: 80%;
   }
 
   #project-container h2 {
-    position: relative;
-    left: 28%;
-    font-size: 3em;
-    padding-bottom: 1%;
+    left: 30%;
     margin-top: -2%;
   }
 
   #card-container {
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
     left: -6%;
     flex-direction: column;
   }
 
   .card {
-    color: black;
-    margin: 10px;
-    margin-left: 10px;
-    margin-left: 10px;
-    margin-left: 10px;
-    border: 3px solid black;
     flex-basis: 400px;
-    padding: 4em 4em 4em 6em;
-    width: 236px;
     margin-left: 30px;
-    max-width: 60%;
     padding: 0em 15em;
   }
 
   #project1 {
-    background: url(https://storage.googleapis.com/replit/images/1670002823446_774b0b52bdb04e22247044ca3a843680.png);
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-grow: 2;
     flex-basis: 500px;
-    padding: 80px;
     max-width: 100%;
-    max-height: 6em;
-    background-position-y: 70%;
     max-height: 400px;
     width: 90%;
     margin-left: 11%;
   }
 
   .project-text {
-    position: absolute;
-    background-color: white;
-    padding: 20px;
     left: 26%;
     bottom: 35%;
     font-size: 100%;
   }
 
   #contact h2 {
-    position: relative;
-    margin-top: -8%;
     font-size: 2em;
-    color: red;
     padding-left: 42%;
-    padding-bottom: 3%;
     left: -6%;
   }
 
   #contact ul {
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     margin-left: -5%;
