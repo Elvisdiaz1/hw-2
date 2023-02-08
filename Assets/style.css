@@ -5,7 +5,8 @@
 }
 
 nav {
-  background-color: aqua;
+  background-color: red;
+
   color: white;
   display: flex;
   justify-content: space-between;
@@ -16,7 +17,7 @@ nav {
 nav h1 {
   font-size: 3rem;
   padding: 5px 5px 5px 10%;
-  background-color: grey;
+  background-color: #252525;
 }
 
 nav ul {
@@ -26,6 +27,12 @@ nav ul {
 
 nav li {
   margin: 0px 10px;
+}
+
+nav li a,
+#contact li a {
+  color: white;
+  text-decoration: none;
 }
 
 #subtitle-div {
@@ -45,28 +52,14 @@ nav li {
   padding: 20px;
 }
 
-aside {
-  display: flex;
-  flex-direction: column;
-  font-size: 3rem;
-  max-width: 40%;
-  /* align-items: flex-end; */
-  padding-left: 2em;
-}
-
-aside div {
-  border-style: solid;
-  border-width: 0px 5px 0px 0px;
-  /* add margin on top and/or bottom corresponding to work on right */
-}
-
-aside h1 {
-  padding: 40% 1em;
-}
-
 #container {
   display: flex;
   flex-direction: row-reverse;
+}
+
+#heading {
+  background-color: #252525;
+  color: white;
 }
 
 #heading p {
@@ -78,7 +71,7 @@ aside h1 {
 
 #heading h2,
 #card-container h2 {
-  margin-top: 1%;
+  padding-top: 1%;
   position: relative;
   left: 42%;
   font-size: 3em;
@@ -89,7 +82,7 @@ aside h1 {
 }
 
 #heading #paragraph2 {
-  margin-bottom: 10em;
+  padding-bottom: 2%;
 }
 
 #heading img {
@@ -100,19 +93,15 @@ aside h1 {
   margin-top: 2em;
 }
 
-/* #section-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
-
 #card-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15em;
+  background-color: red;
+  padding: 5% 0px;
+  color: white;
 }
 
 .card {
@@ -120,7 +109,7 @@ aside h1 {
   margin: 10px;
   border: 3px solid black;
   flex-basis: 915px;
-  padding: 4em;
+  padding: 4em 4em 4em 6em;
   max-width: 40%;
 }
 
@@ -140,48 +129,70 @@ aside h1 {
 }
 
 #project1 {
-  /* width: 60em; */
-  background: url(./images/calculator\ .png);
+  background: url(https://storage.googleapis.com/replit/images/1670002823446_774b0b52bdb04e22247044ca3a843680.png);
   background-size: cover;
   background-repeat: no-repeat;
   flex-grow: 2;
   flex-basis: 100%;
   padding: 80px;
   max-width: 70%;
-  /* height: 15em; */
+  margin-right: 15%;
+  height: 15em;
+  background-position-y: 70%;
+}
+
+#project1 h5 {
+  font-size: 1.5em;
+}
+
+#project2 h5,
+#project3 h5 {
+  font-size: 95%;
+}
+#project2 p,
+#project3 p {
+  font-size: 75%;
 }
 
 #project2 {
-  background: url(./images/world-map.gif);
+  background: url(https://images.unsplash.com/photo-1542010589005-d1eacc3918f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVjaXBlJTIwYm9va3xlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 20%;
 }
 
 #project3 {
   background: url(./images/./tictactoe.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 15%;
 }
 
 #card-container h2 {
-  margin-top: 1%;
-  position: absolute;
-  left: 42%;
+  margin-top: -20%;
+  padding-top: 2%;
   font-size: 3em;
-  top: 170%;
 }
 
 #contact ul {
   font-size: 30px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5em;
 }
 
 #contact h2 {
-  margin-top: 1%;
-  position: absolute;
-  left: 42%;
+  margin-top: -8%;
+
   font-size: 3em;
-  bottom: -170%;
+
+  color: white;
+  padding-left: 42%;
+  padding-bottom: 3%;
+}
+
+#contact {
+  padding: 10% 0px 2% 0px;
+  background-color: #252525;
 }
 
 /* Add media queries for mobile */
